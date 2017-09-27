@@ -9,6 +9,8 @@ echo "Author: MoeClub.org"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
+cat /etc/redhat-release
+uname -r
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
 sudo cd /root
