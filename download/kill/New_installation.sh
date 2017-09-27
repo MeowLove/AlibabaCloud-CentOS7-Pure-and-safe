@@ -12,9 +12,9 @@ sudo yum install wget -y
 sudo yum update -y
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup
-sudo wget -O /etc/yum.repos.d/CentOS-Base.repo https://linuxsoft.cxthhhhh.com/download/CentOS/7/epel-release/CentOS-Base.repo
-sudo wget -O /etc/yum.repos.d/epel.repo https://linuxsoft.cxthhhhh.com/download/CentOS/7/epel-release/epel.repo
-rpm -Uvh https://linuxsoft.cxthhhhh.com/download/CentOS/7/epel-release/epel-release-latest-7.noarch.rpm --quiet
+sudo wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/CentOS-Base.repo
+sudo wget -O /etc/yum.repos.d/epel.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/epel.repo
+rpm -Uvh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/epel-release-latest-7.noarch.rpm --quiet
 sudo yum clean all
 sudo yum makecache
 yum repolist
@@ -23,7 +23,7 @@ echo "replace all sources  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
 sudo cd /root
 sudo bash /usr/local/aegis/uninstall.sh
-sudo curl -sSL https://linuxsoft.cxthhhhh.com/download/CentOS/7/AliYunDun/quartz_uninstall.sh | sudo bash
+sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/quartz_uninstall.sh | sudo bash
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "uninstall aegis quartz aliservice  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
@@ -38,7 +38,7 @@ echo -e "\n"
 sudo rewall-cmd --state
 sudo systemctl enable firewalld
 sudo rm -rf /etc/firewalld/zones/public.xml
-sudo wget -O /etc/firewalld/zones/public.xml https://linuxsoft.cxthhhhh.com/download/CentOS/7/AliYunDun/firewalld/zones/public.xml
+sudo wget -O /etc/firewalld/zones/public.xml https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/firewalld/zones/public.xml
 sudo systemctl start firewalld
 sudo firewall-cmd --reload
 echo "---------------------------------------------------------------------------------------------------------------------"
@@ -46,7 +46,7 @@ echo "firewall create the rule and reload  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n"
 sudo rm -rf /etc/motd
-sudo wget -O /etc/motd https://linuxsoft.cxthhhhh.com/download/CentOS/7/AliYunDun/firewalld/motd.txt
+sudo wget -O /etc/motd https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/firewalld/motd.txt
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "Clear the words of Ali landing  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
@@ -57,7 +57,7 @@ echo "Has now completed the Ali Yun International CentOS 7 pure purification wor
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "Then I will help you install LotServer, and open TCP FAST OPEN."
 echo "If you need to continue, copy the following command and proceed after a reboot."
-echo "sudo curl -sSL https://linuxsoft.cxthhhhh.com/download/CentOS/7/LotServer/install.sh | sudo bash"
+echo "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
