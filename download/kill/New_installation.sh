@@ -8,7 +8,6 @@ echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
-sudo yum install wget -y
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/backup/CentOS-Base.repo.backup
 mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/backup/epel.repo.backup
 rm /etc/yum.repos.d/CentOS-Base.repo -f
