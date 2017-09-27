@@ -11,7 +11,9 @@ echo -e "\n"
 sudo yum install wget -y
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup
-sudo wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/CentOS-Base.repo
+rm /etc/yum.repos.d/CentOS-Base.repo -f
+rm /etc/yum.repos.d/epel.repo -f
+sudo wget -O /etc/yum.repos.d/CentOS-Base.repo -y https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/CentOS-Base.repo
 sudo wget -O /etc/yum.repos.d/epel.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/epel.repo
 rpm -Uvh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/epel-release-latest-7.noarch.rpm --quiet
 sudo yum clean all
