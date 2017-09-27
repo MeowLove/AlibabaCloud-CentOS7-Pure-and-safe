@@ -9,7 +9,6 @@ echo "--------------------------------------------------------------------------
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
 sudo yum install wget -y
-sudo yum update -y
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup
 sudo wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/CentOS-Base.repo
@@ -18,6 +17,7 @@ rpm -Uvh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-an
 sudo yum clean all
 sudo yum makecache
 yum repolist
+sudo yum update -y
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "replace all sources  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
