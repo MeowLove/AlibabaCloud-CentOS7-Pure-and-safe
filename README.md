@@ -7,6 +7,6 @@ Switch the update source, it comes with some of the resources are not available,
 
     (Mainly only for Alibaba cloud CentOS7 + available, other systems not tested)
 
-2. LotServer helps you optimize your network and help you build virtual memory with a size of 2G.(Swap Location: /var/swap)
+2. LotServer helps you optimize your network and help you build virtual memory with a size of 2G.
 
-    (For all CentOS7 systems, tested for Alibaba, Vultr, Azure, etc.)
+    (For all CentOS7 systems, tested for Alibaba, Vultr, Azure, etc.)(Swap Location: /var/swap)
