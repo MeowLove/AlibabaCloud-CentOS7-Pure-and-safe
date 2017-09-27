@@ -37,7 +37,7 @@ sudo wget -O /etc/firewalld/zones/public.xml https://raw.githubusercontent.com/M
 sudo systemctl start firewalld
 sudo firewall-cmd --reload
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "firewall create the rule and reload   is [OK]"
+echo "firewall create the rule and reload  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n"
 sudo rm -rf /etc/motd
