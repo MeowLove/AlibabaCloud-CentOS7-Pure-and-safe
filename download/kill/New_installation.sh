@@ -8,11 +8,6 @@ echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
-mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/backup/CentOS-Base.repo.backup
-mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/backup/epel.repo.backup
-rm /etc/yum.repos.d/CentOS-Base.repo -f
-rm /etc/yum.repos.d/epel.repo -f
-sudo wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/CentOS-Base-datto-com.repo
 rpm -Uvh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/epel-release-latest-7.noarch.rpm --quiet
 sudo yum clean all
 sudo yum makecache
