@@ -9,6 +9,7 @@ echo "--------------------------------------------------------------------------
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
 sudo cd /root
+sudo yum install wget -y
 dd if=/dev/zero of=/var/swapx bs=1024 count=2097152
 mkswap /var/swapx
 chmod 0644 /var/swapx
