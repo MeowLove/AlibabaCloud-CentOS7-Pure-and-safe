@@ -13,12 +13,15 @@ Switch the update source, it comes with some of the resources are not available,
 
 
 New installation
+
     sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/New_installation.sh | sudo bash
 
 Snapshot / mirror recovery
+
     sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/Snapshot_image.sh | sudo bash
 
 Replace the kernel and install LotServer
+
     sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash
 
 Update 2017/09/27
