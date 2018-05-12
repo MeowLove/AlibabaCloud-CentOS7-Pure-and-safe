@@ -1,6 +1,6 @@
 # AlibabaCloud-CentOS7-Pure-and-safe
 Optimize and purify your Alibaba Cloud ECS instances.
-My website: https://www.cxthhhhh.com (CXT | 一個亂加技能樹的人😇隨心所欲有趣的靈魂終會相遇💓)
+My website: https://www.cxthhhhh.com
 
 
 Features:
