@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "Welcome to LotServer_install tool ! V1.2"
+echo "Welcome to LotServer_install tool ! V1.3"
 echo "System requirements: CentOS 7+"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
+echo "from www.cxthhhhh.com - 2018/05/13 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
@@ -22,7 +22,7 @@ rpm -ivh https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-an
 rpm -qa | grep kernel
 echo -e "\n\n\n"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "End to LotServer_install tool ! V1.2"
+echo "End to LotServer_install tool ! V1.3"
 echo "Need to restart before proceeding to the next step."
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "The kernel has been replaced by: kernel-3.10.0-327.el7.x86_64."
@@ -30,7 +30,7 @@ echo "TCP FAST OPEN is on. But the installation of LotServer need to restart."
 echo "If you need to continue, copy the following command and proceed after a reboot."
 echo "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install_step2.sh | sudo bash"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "from blog.cxthhhhh.com - 2017/09/27 - MeowLove"
+echo "from www.cxthhhhh.com - 2018/05/13 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo Please reboot !
 echo -e "\n"

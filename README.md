@@ -1,11 +1,12 @@
 # AlibabaCloud-CentOS7-Pure-and-safe
 Optimize and purify your Alibaba Cloud ECS instances.
+My website: https://www.cxthhhhh.com (CXT | 一個亂加技能樹的人😇隨心所欲有趣的靈魂終會相遇💓)
+
 
 Features:
-1. Remove Alibaba Cloud monitoring programs and block bad IPs with firewall to protect your privacy. 
-  Switch to other yum repositories. The Alibaba Cloud mirror lacks up-to-date packages and using those old packages may result in a security breach.
+1. Remove Alibaba Cloud monitoring programs and block bad IPs with firewall to protect your privacy. Switch to other yum repositories. The Alibaba Cloud mirror lacks up-to-date packages and using those old packages may result in a security breach.
 
-   (For Alibaba Cloud CentOS 7 +, not tested on other OSes.)
+    (For Alibaba Cloud CentOS 7 +, not tested on other OSes.)
 
 2. Optimize your network connection by installing LotServer and create a swap of 2 GB.
 
@@ -24,4 +25,6 @@ Replace the kernel and install LotServer
 
     sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash
 
-Updated on September 27, 2017
+Thanks for the translation from "Kugel-Blitz"、"ztytian"
+
+Updated on May 13, 2018
