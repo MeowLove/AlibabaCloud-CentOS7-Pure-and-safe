@@ -70,7 +70,7 @@ echo "firewall create the rule and reload  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\n"
 sudo rm -rf /etc/motd
-sudo wget -O /etc/motd https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/firewalld/motd
+sudo wget -O /etc/motd https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/motd/motd
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "Clear the words of Ali landing  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
