@@ -9,10 +9,12 @@ echo "--------------------------------------------------------------------------
 echo Press any key to continue! Exit with 'Ctrl'+'C' !
 echo -e "\n"
 sudo cd /root
-sudo rm -rf /etc/sysconfig/network-scripts/ifcfg-eth0
-sudo rm -rf /etc/resolv.conf
-sudo wget -O /etc/sysconfig/network-scripts/ifcfg-eth0 https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/dns/ifcfg-eth0
-sudo wget -O /etc/resolv.conf https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/dns/resolv.conf
+echo 'DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+DNS1=1.1.1.1
+DNS2=8.8.8.8'>/etc/sysconfig/network-scripts/ifcfg-eth0
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "The system DNS is set to "1.1.1.1 8.8.8.8"  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
