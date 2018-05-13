@@ -36,6 +36,7 @@ sudo yum clean all
 sudo yum makecache
 yum repolist
 sudo yum update -y
+sudo yum install vim wget -y
 lsb_release -a
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "Update the system to the latest  is [OK]"
