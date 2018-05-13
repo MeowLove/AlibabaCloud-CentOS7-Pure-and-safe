@@ -1,0 +1,5 @@
+DEVICE=eth0
+BOOTPROTO=dhcp
+ONBOOT=yes
+DNS1=1.1.1.1
+DNS2=8.8.8.8
