@@ -28,6 +28,9 @@ echo "--------------------------------------------------------------------------
 echo -e "\n"
 rm -rf /etc/yum.repos.d/
 rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/epel-release/centos-release.rpm --quiet
+sudo yum clean all
+sudo yum makecache
+yum repolist
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "YUM source initialized to CentOS 7 default  is [OK]"
 echo "---------------------------------------------------------------------------------------------------------------------"
